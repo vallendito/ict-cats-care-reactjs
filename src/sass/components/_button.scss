@@ -32,6 +32,7 @@
     &--orange {
         background-color: $color-primary;
         color: $color-white;
+        letter-spacing: 2px;
 
         &::after {
             background-color: $color-primary;

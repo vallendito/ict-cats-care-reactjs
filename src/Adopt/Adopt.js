@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import itemList from './components/ItemList';
 import ItemList from './components/ItemList';
 
 const URL_ADOPT = "https://cors-anywhere.herokuapp.com/http://cats-care.dx.am/api_cats_care";
@@ -11,7 +10,7 @@ class Adopt extends Component {
         super(props);
     
         this.state = {
-            adopt: ''
+            adopt: []
         }
     }
 
@@ -20,7 +19,6 @@ class Adopt extends Component {
             method: 'GET'
         }).then(res => res.json())
         .then(json => {
-            console.log(json);
             this.setState({
                 adopt:json
             });
@@ -33,7 +31,7 @@ class Adopt extends Component {
         return(
             <div>
                 <Header />
-                <ItemList />
+                <ItemList allItems={this.state.adopt}  />
             </div>
         );
     }
