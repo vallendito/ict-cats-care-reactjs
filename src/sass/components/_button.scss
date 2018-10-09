@@ -1,0 +1,130 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 2rem 4.5rem;
+        display: inline-block;
+        border-radius: 1rem;
+        position: relative;
+        font-size: $default-font-size;
+        transition: all .2s;
+    }
+
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-.1rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+    }
+
+    &--orange {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    // &--animated {
+    //     animation: moveInBottom .5s ease-out .75s;
+    //     animation-fill-mode: backwards;
+    // }
+}
+
+.btn-outline {
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .6rem 1rem;
+        display: inline-block;
+        border-radius: 1rem;
+        position: relative;
+        transition: all .2s;
+    }
+
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .1);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-.1rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .1);
+    }
+
+    &--orange {
+        border: 3px solid $color-primary;
+        color: $color-primary;
+
+        &::after {
+            border: 3px solid $color-primary;
+
+        }
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    // &--animated {
+    //     animation: moveInBottom .5s ease-out .75s;
+    //     animation-fill-mode: backwards;
+    // }
+}
+
+.btn-small {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        display: inline-block;
+        padding: .7rem 3rem;
+        background-color: orange;
+        border-radius: 10rem;
+        margin-top: 1rem;
+    }
+}

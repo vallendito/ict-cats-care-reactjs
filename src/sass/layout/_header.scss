@@ -1,0 +1,114 @@
+.header-home {
+    height: 95vh;
+    background-color: $color-white;
+    vertical-align: baseline;
+    &__logo {
+        font-family: 'Circular Std Bold', sans-serif;
+        padding: 4rem 0;
+        display: inline-block;
+        letter-spacing: 2.5px;
+        font-size: 2rem;
+    }
+
+    &__navigation {
+        font-size: 1.4rem;    
+        float: right;
+        text-align: right;
+        padding: 4rem 0;
+        display: inline-block;
+        font-family: 'Circular Std Medium', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+        
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-black;
+        }
+
+        &:hover,
+        &:active {
+
+        }
+    }
+}
+
+.header-content {
+
+    &__left {
+        margin-top: -1.5rem;
+    }
+
+    &__right {
+
+        &--img {
+            width: 100%;
+            margin-top: -55px;
+        }
+    }
+    
+}
+
+.header-adopt {
+    background-color: $color-white;
+    font-size: $default-font-size;
+    vertical-align: baseline;
+
+    &__logo {
+        padding: 4rem 0 0 0 ;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    &__navigation {
+        float: right;
+        text-align: right;
+        padding: 4rem;
+        display: inline-block;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+        
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-black;
+        }
+
+        &:hover,
+        &:active {
+
+        }
+    }
+}
+
+
+
