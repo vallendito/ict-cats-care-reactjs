@@ -29,7 +29,7 @@ class Header extends Component {
                                 </li>
 
                                 <li className="header-home__item">
-                                    <a href="/" className="header-home__link btn-outline btn-outline--orange">Adopt Now</a>
+                                    <a href="/" className="btn-outline btn-outline--orange">Adopt Now</a>
                                 </li>
 
                             </ul>
