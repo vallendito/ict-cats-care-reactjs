@@ -11,24 +11,30 @@ class Feature extends Component {
 
                     <div className="col-1-of-3">
                         <div className="feature-box u-text-center">
-                            <h3 className="heading-tertiary">Adopsi</h3>
-                            <i className="feature-box__icon"></i>
-                            <p className="feature-box__text"></p>
+                            <h3 className="heading-tertiary feature-box__title">Adopsi</h3>
+                            <img className="feature-box__icon" src="assets/img/icon/icon-adopsi.png" alt="icon features"  />
+                            <p className="feature-box__text">
+                                Aliqua reprehenderit laborum proident irure Lorem.
+                            </p>
                         </div>
                     </div>
                     <div className="col-1-of-3">
                         <div className="feature-box u-text-center">
 
-                            <h3 className="heading-tertiary">Perawatan</h3>
-                            <i className="feature-box__icon"></i>
-                            <p className="feature-box__text"></p>
+                            <h3 className="heading-tertiary feature-box__title">Perawatan</h3>
+                            <img className="feature-box__icon" src="assets/img/icon/icon-perawatan.png" alt="icon features"  />
+                            <p className="feature-box__text">
+                            Aliqua reprehenderit laborum proident irure Lorem.
+                            </p>
                         </div>
                     </div>
                     <div className="col-1-of-3">
                         <div className="feature-box u-text-center">
-                            <h3 className="heading-tertiary">Kesehatan</h3>
-                            <i className="feature-box__icon"></i>
-                            <p className="feature-box__text"></p>
+                            <h3 className="heading-tertiary feature-box__title">Kesehatan</h3>
+                            <img className="feature-box__icon"  src="assets/img/icon/icon-kesehatan.png" alt="icon features" />
+                            <p className="feature-box__text">
+                            Aliqua reprehenderit laborum proident irure Lorem.
+                            </p>
                         </div>  
                     </div>
                 </div>

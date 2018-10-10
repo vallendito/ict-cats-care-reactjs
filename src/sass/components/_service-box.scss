@@ -1,0 +1,26 @@
+.service-box {
+    display: inline-block;
+    &__title {
+        color: $color-primary;
+        font-size: $default-font-size;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+
+    &__text {
+        color: $color-grey-dark;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        margin-bottom: 6rem;
+    }
+
+    &__animated {
+        height: 50rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -38%);
+    }
+}

@@ -6,20 +6,22 @@ import './sass/main.scss';
 
 import Home from './Home/Home';
 import Adopt from './Adopt/Adopt';
+import ItemDetail from './Adopt/components/ItemDetails';
 class App extends Component {
   render() {
     return (
       // <BrowserRouter>
       //   <div>
-      //   <Adopt />
-      //     {/* <Route exact path="/" component={Home} />
-      //     <Route path="/adopt" component={Adopt} /> */}
+      //   {/* <Adopt /> */}
+      //     <Route exact path="/" component={Home} />
+      //     <Route path="/adopt/:id_hewan" component={Adopt} />
       //   </div>
       // </BrowserRouter>
-      <div>
-        <Home />
-        {/* <Adopt /> */}
-      </div>
+      
+        <Home /> 
+        // <Adopt /> 
+        
+      
     )
   }
 }
