@@ -17,17 +17,17 @@ class Service extends Component {
                             </p>
 
                             <h3 className="service-box__title">
-                            Komunikasi dengan Cats Care 24/7
+                            No Downloads
                             </h3>
                             <p className="service-box__text">
-                            Komunikasi dengan Cats Care tanpa ada batasan waktu, kamu bisa berkonsultasi 24 jam.
+                            Tidak perlu mengunduh aplikasi, langsung coba dengan messenger kamu. 
                             </p>
 
                             <h3 className="service-box__title">
-                            Komunikasi dengan Cats Care 24/7
+                            Komunikasi Seperti Teman Sendiri.
                             </h3>
                             <p className="service-box__text">
-                            Komunikasi dengan Cats Care tanpa ada batasan waktu, kamu bisa berkonsultasi 24 jam.
+                            Cats Care akan ngobrol seperti teman kamu mengenai kesehatan, tips & trik perawatan kucing.
                             </p>
                         </div>    
                     </div>
@@ -39,24 +39,24 @@ class Service extends Component {
                     <div className="col-1-of-3">
                         <div className="service-box">
                         <h3 className="service-box__title">
-                            Komunikasi dengan Cats Care 24/7
+                            Informasi Kesehatan Kucing
                             </h3>
                             <p className="service-box__text">
-                            Komunikasi dengan Cats Care tanpa ada batasan waktu, kamu bisa berkonsultasi 24 jam.
+                            Dapatkan informasi mengenai kesehatan kucing seperti kucing sakit, diare, stress dll.
                             </p>
 
                             <h3 className="service-box__title">
-                            Komunikasi dengan Cats Care 24/7
+                            Adopsi Kucing
                             </h3>
                             <p className="service-box__text">
-                            Komunikasi dengan Cats Care tanpa ada batasan waktu, kamu bisa berkonsultasi 24 jam.
+                            Kamu bisa melihat fitur adopsi di website resmi Cats Care www.cats-care.com 
                             </p>
 
                             <h3 className="service-box__title">
-                            Komunikasi dengan Cats Care 24/7
+                            Tips & Trik Perawatan Kucing
                             </h3>
                             <p className="service-box__text">
-                            Komunikasi dengan Cats Care tanpa ada batasan waktu, kamu bisa berkonsultasi 24 jam.
+                            Dapatkan informasi mengenai Tips & Trik Perawatan kucing seperti Tips memandikan kucing, tips merawat kucing kecil, tips membuat kucing gimbul, dll.
                             </p>
                         </div>
                     </div>

@@ -16,6 +16,19 @@ body {
     font-size: 3rem;
     letter-spacing: 2px;
     margin-bottom: 8rem;
+
+    &::after {
+        content: "";
+        background: $color-primary;
+        width: 7rem;
+        height: 5px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 1.5rem;
+        border-radius: 5px;
+
+    } 
 }
 
 .heading-tertiary {

@@ -1,5 +1,18 @@
 .feature-box {
     
+    background-color: rgba($color-white, .8);
+    padding: 1.5rem;
+    border-radius: 3px;
+    box-shadow: 0 .5rem 4rem rgba($color-black, .15);
+    text-align: center;
+
+    transition: all .3s;
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+
+    
     &__title {
         margin-top: 2rem;
     }
@@ -11,7 +24,7 @@
 
     &__text {
         margin-top: 5rem;
-        text-align: center;
+        margin-bottom: 2rem;
         font-size: $default-font-size;
         letter-spacing: 2px;
         color: $color-black;
