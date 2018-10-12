@@ -10,7 +10,7 @@ class Adopt extends Component {
         super(props);
     
         this.state = {
-            adopt: []
+            adopts: []
         }
     }
 
@@ -20,7 +20,7 @@ class Adopt extends Component {
         }).then(res => res.json())
         .then(json => {
             this.setState({
-                adopt:json
+                adopts:json
             });
         });
     }
@@ -31,7 +31,7 @@ class Adopt extends Component {
         return(
             <div>
                 <Header />
-                <ItemList allItems={this.state.adopt}  />
+                <ItemList allItems={this.state.adopts}  />
             </div>
         );
     }

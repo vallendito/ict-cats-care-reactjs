@@ -39,6 +39,12 @@
         }
     }
 
+    &--animated {
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
+        backface-visibility: hidden;
+    }
+
     &::after {
         content: "";
         display: inline-block;
@@ -127,5 +133,18 @@
         background-color: orange;
         border-radius: 10rem;
         margin-top: 1rem;
+        transition: all .2s;
+    }
+
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-.1rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
     }
 }

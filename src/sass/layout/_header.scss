@@ -50,19 +50,29 @@
 
         }
     }
+    
 }
 
 .header-content {
 
     &__left {
         margin-top: -1.5rem;
+
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
     }
 
     &__right {
+        
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
 
         &--img {
-            width: 62rem;
-            margin-top: -7.5rem;
+            width: 66rem;
+            margin-top: -9rem;
+            
         }
     }
     
@@ -113,6 +123,11 @@
         }
     }
 }
+
+.active {
+    color: $color-primary;
+}
+
 
 
 

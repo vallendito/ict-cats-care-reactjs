@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
+import Header from './Header';
+import DetailsItem from './DetailsItem';
 
 
-const REQ_URL = "https://cors-anywhere.herokuapp.com/http://cats-care.dx.am/api_cats_care?id_hewan=";
+const REQ_URL = `https://cors-anywhere.herokuapp.com/http://cats-care.dx.am/api_cats_care`;
 
-class ItemDetails extends Component {
+const PARAM = `?id_hewan=`;
+
+class Details extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            adopt: ''
+            adopt: []
         }
     }
 
     componentDidMount() {
         console.log(this.props.match.params.id_hewan);
 
-        fetch(`${REQ_URL}${this.props.match.params.id_hewan}`,{
+        fetch(`${REQ_URL}${PARAM}${this.props.match.params.id_hewan}`,{
             method:'GET'
         }).then(response => response.json())
         .then(json => {
@@ -32,11 +36,14 @@ class ItemDetails extends Component {
         return(
             <div>
                 <div>
-                    <h3>{this.state.adopt.alamat}</h3>
+
+                    <Header />
+
+                    <DetailsItem allDetails={this.state.adopt}/>                    
                 </div>
             </div>
         );
     }
 }
 
-export default ItemDetails;
+export default Details;

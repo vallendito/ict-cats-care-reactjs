@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
     render() {
@@ -17,19 +17,15 @@ class Header extends Component {
                             <ul className="header-home__list">
 
                                 <li className="header-home__item">
-                                    <a href="/" className="header-home__link">Home</a>
+                                    <NavLink exact to="/" className="header-home__link">Home</NavLink>
                                 </li>
                                 
                                 <li className="header-home__item">
-                                    <a href="/adopt" className="header-home__link">Adopt</a>
+                                    <NavLink to="/adopt" className="header-home__link">Adopt</NavLink>
                                 </li>
 
                                 <li className="header-home__item">
-                                    <a href="/adopt" className="header-home__link">Contact</a>
-                                </li>
-
-                                <li className="header-home__item">
-                                    <a href="/" className="btn-outline btn-outline--orange">Adopt Now</a>
+                                    <NavLink to="/adopt" className="btn-outline btn-outline--orange">Adopt Now</NavLink>
                                 </li>
 
                             </ul>
@@ -46,13 +42,13 @@ class Header extends Component {
                                 akan mendapatkan info mengenai kucing dan <br/> kamu bisa mengadopsi kucing terlantar.
                                 </p>
 
-                                <a href="/" className="btn btn--orange">Adopt Now</a>
+                                <NavLink to="/adopt" className="btn btn--orange btn--animated">Adopt Now</NavLink>
                             </div>
                         </div>
 
                         <div className="col-1-of-2">
                             <div className="header-content__right">
-                                <img src="assets/img/Illustrasi.png" alt="Cats CAre Illustrator" className="header-content__right--img"/>      
+                                <img src="assets/img/illustrator.png" alt="Cats Care Illustrator" className="header-content__right--img"/>      
                             </div>
                         </div>
                     </div>
