@@ -6,9 +6,45 @@
     box-shadow: 0 .5rem 4rem rgba($color-black, .15);
     border-radius: 3px;
     transition: all .3s;
+    width: 90%;
 
     &__img {
-        width: 70%;
+        width: 99%;
         display: inline-block;
+        border-radius: 4px;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        text-align: left;
+        margin: 2.7rem 0;
+    }
+    &__icon {
+        
+        margin-top: 1rem;
+
+        &--1 {
+            width: 8%;
+            height: auto;
+            position: relative;
+            top: 10px;
+            left: 0;
+        }
+        &--wa {
+            margin: 0 1rem;
+            margin-right: 4rem;
+        }
+
+        &--2 {
+            width: 8%;
+            height: auto;
+            position: relative;
+            top: 10px;
+            left: 0;
+        }
+        &--gmail {
+            margin: 0 1rem;            
+        }
+
     }
 }

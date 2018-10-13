@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import ItemList from './components/ItemList';
 
-const URL_ADOPT = "https://cors-anywhere.herokuapp.com/http://cats-care.dx.am/api_cats_care";
+const URL_ADOPT = "https://cors-anywhere.herokuapp.com/http://catscare.behato.org/api_cats_care";
 
 
 class Adopt extends Component {

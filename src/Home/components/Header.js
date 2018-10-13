@@ -37,7 +37,7 @@ class Header extends Component {
                     <div className="row">
                         <div className="col-1-of-2">
                             <div className="header-content__left">
-                                <h1 className="heading-primary">Kamu dapat menolong <br/> <span>  kucing terlatar untuk </span> <br/> di adopsi.</h1>
+                                <h1 className="heading-primary">Kamu dapat menolong <br/> <span>  kucing terlantar untuk </span> <br/> di adopsi.</h1>
                                 <p className="paragraph">Dengan menggunakan fitur Chatbot kamu <br/>
                                 akan mendapatkan info mengenai kucing dan <br/> kamu bisa mengadopsi kucing terlantar.
                                 </p>

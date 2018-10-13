@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const ItemList = (props) => {
     
-    const URL_IMG = 'http://cats-care.dx.am/assets/upload/';
+    const URL_IMG = 'http://catscare.behato.org/assets/upload/';
 
     const list = ({allItems}) => {
         if(allItems) {

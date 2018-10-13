@@ -3,7 +3,7 @@ import Header from './Header';
 import DetailsItem from './DetailsItem';
 
 
-const REQ_URL = `https://cors-anywhere.herokuapp.com/http://cats-care.dx.am/api_cats_care`;
+const REQ_URL = `https://cors-anywhere.herokuapp.com/http://catscare.behato.org/api_cats_care`;
 
 const PARAM = `?id_hewan=`;
 
