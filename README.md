@@ -2,7 +2,7 @@
 Cats Care is apps for adoption Cat, build with Reactjs.
 
 #### ScreenShot
-![alt text](https://github.com/vallendito/natours-awesome-sass/blob/master/screenshot.png)
+![alt text](https://github.com/vallendito/ict-cats-care-reactjs/blob/master/catscare.png)
 
 #### Build With
 - ReactJs
