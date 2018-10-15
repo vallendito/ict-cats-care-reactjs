@@ -7,8 +7,8 @@ class Header extends Component {
             <header className="header-adopt">
                 <div className="row">
                     <div className="col-1-of-2">
-                        <div className="header-home__logo">
-                            Cats Care
+                        <div className="header-home__logo-box">
+                            <img src="/assets/img/icon/logo.png" alt="logo" className="header-home__logo-box--img"/>
                         </div>
                     </div>
 

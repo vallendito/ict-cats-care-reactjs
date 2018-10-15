@@ -4,12 +4,18 @@
     padding: 2rem;
     text-align: center;
     box-shadow: 0 .5rem 4rem rgba($color-black, .15);
-    border-radius: 3px;
+    border-radius: 1rem;
     transition: all .3s;
 
     &__img {
         width: 100%;
         display: inline-block;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        margin: 1rem 0;
     }
 
     &:hover {

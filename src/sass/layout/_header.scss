@@ -2,12 +2,15 @@
     height: 95vh;
     background-color: $color-white;
     vertical-align: baseline;
-    &__logo {
+    &__logo-box {
         font-family: 'Circular Std Bold', sans-serif;
         padding: 4rem 0;
         display: inline-block;
-        letter-spacing: 2.5px;
-        font-size: 2rem;
+
+        &--img {
+            width: 5rem;
+            height: auto;
+        }
     }
 
     &__navigation {
@@ -56,7 +59,7 @@
 .header-content {
 
     &__left {
-        margin-top: -1.5rem;
+        margin-top: -4rem;
 
         animation-name: moveInLeft;
         animation-duration: 1s;
@@ -71,7 +74,7 @@
 
         &--img {
             width: 66rem;
-            margin-top: -9rem;
+            margin-top: -12rem;
             
         }
     }

@@ -26,6 +26,7 @@ const DetailsItem = (props) => {
                                 <p className="detail-box__text"><b>Umur:</b> {item.umur_hewan}</p>
                                 <p className="detail-box__text"><b>Details:</b> {item.keterangan}</p>
                                 <p className="detail-box__text"><b>Alamat:</b> {item.alamat}</p>
+<p className="detail-box__text"><b>Harga:</b> {item.harga}</p>
 
                                 <h3 className="heading-tertiary">Kontak</h3>
                                 

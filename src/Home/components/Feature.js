@@ -14,7 +14,7 @@ class Feature extends Component {
                             <h3 className="heading-tertiary feature-box__title">Adopsi</h3>
                             <img className="feature-box__icon" src="assets/img/icon/icon-adopsi.png" alt="icon features"  />
                             <p className="feature-box__text">
-                                Aliqua reprehenderit laborum proident irure Lorem.
+                                Melalui Cats Care kamu bisa mengadopsi kucing dengan mudah.
                             </p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ class Feature extends Component {
                             <h3 className="heading-tertiary feature-box__title">Perawatan</h3>
                             <img className="feature-box__icon" src="assets/img/icon/icon-perawatan.png" alt="icon features"  />
                             <p className="feature-box__text">
-                            Aliqua reprehenderit laborum proident irure Lorem.
+                                Melalui Cats Care kamu bisa konsultasi mengenai Tips & Trik perawatan kucing.
                             </p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ class Feature extends Component {
                             <h3 className="heading-tertiary feature-box__title">Kesehatan</h3>
                             <img className="feature-box__icon"  src="assets/img/icon/icon-kesehatan.png" alt="icon features" />
                             <p className="feature-box__text">
-                            Aliqua reprehenderit laborum proident irure Lorem.
+                                Melalui Cats Care kamu bisa konsultasi mengenai Kesehatan kucing.
                             </p>
                         </div>  
                     </div>

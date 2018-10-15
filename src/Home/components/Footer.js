@@ -7,7 +7,7 @@ class Footer extends Component {
             <footer className="footer-home">
                 <div className="row">
                     <div className="footer-home__logo-box u-text-center ">
-                        Cats Care
+                        <img src="/assets/img/icon/logo.png" alt="logo" className="footer-home__logo-box--logo"/>
                     </div>
                     <div className="col-1-of-2">
                         <div className="footer-home__navigation">
